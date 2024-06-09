@@ -3,7 +3,6 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-
 from sklearn.linear_model import LogisticRegression, SGDClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.neighbors import KNeighborsClassifier
@@ -12,7 +11,6 @@ from imblearn.over_sampling import SMOTE
 from sklearn.metrics import make_scorer, matthews_corrcoef
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
-
 import warnings
 
 warnings.filterwarnings("ignore")
